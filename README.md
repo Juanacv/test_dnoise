@@ -15,7 +15,8 @@ Programada en Laravel 5.2
 * Crear la base de datos importando el archivo test_dnoise.sql
 * El .htaccess dentro de public está configurado para que se vea apuntando simplemente a http://localhost
 * Hay que cambiar /etc/apache2/sites-enabled/000-default.conf y añadir
-```000-default.conf
+
+```
 ServerAdmin webmaster@localhost
 DocumentRoot /directory/to/test/public
 <Directory "/directory/to/test">
@@ -23,13 +24,16 @@ DocumentRoot /directory/to/test/public
     AllowOverride All
 </Directory>
 ```
+
 * En /etc/apache2/apache2.conf
 
+```
 <Directory /directory/to/test>
         Options Indexes FollowSymLinks
         AllowOverride All
         Require all granted
 </Directory>
+```
 
 * Comprobar que mod_rewrite está instalado y activarlo
 
