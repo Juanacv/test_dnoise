@@ -17,7 +17,6 @@ Programada en Laravel 5.2
 * Hay que cambiar /etc/apache2/sites-enabled/000-default.conf y añadir
 
 ```
-ServerAdmin webmaster@localhost
 DocumentRoot /directory/to/test/public
 <Directory "/directory/to/test">
     Options Indexes FollowSymlinks Multiviews
