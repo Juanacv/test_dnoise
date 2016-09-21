@@ -7,10 +7,10 @@ Programada en Laravel 5.2
 
 ### Installación ###
 
-* `git clone https://github.com/bestmomo/test_dnoise.git test
-* `cd test
+* `git clone https://github.com/bestmomo/test_dnoise.git test`
+* `cd test`
 * `composer install`
-* mv .env.example .env
+* `mv .env.example .env`
 * `php artisan key:generate`
 * Crear la base de datos importando el archivo test_dnoise.sql
 * El .htaccess dentro de public está configurado para que se vea apuntando simplemente a http://localhost
@@ -36,7 +36,7 @@ DocumentRoot /directory/to/test/public
 
 * Comprobar que mod_rewrite está instalado y activarlo
 
-sudo a2enmod rewrite
+`sudo a2enmod rewrite`
 
-sudo service apache2 reload
+`sudo service apache2 reload`
 
