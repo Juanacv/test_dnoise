@@ -15,7 +15,7 @@ Programada en Laravel 5.2
 * Crear la base de datos importando el archivo test_dnoise.sql
 * Rellenar el archivo .env con los datos de conexión a la base de datos
 * El .htaccess dentro de public está configurado para que se vea apuntando simplemente a http://localhost
-* Hay que cambiar /etc/apache2/sites-enabled/000-default.conf y añadir
+* Hay que cambiar /etc/apache2/sites-available/000-default.conf y añadir
 
 ```
 DocumentRoot /directory/to/test/public
