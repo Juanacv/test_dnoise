@@ -36,6 +36,6 @@ DocumentRoot /directory/to/test/public
 
 * Comprobar que mod_rewrite está instalado y activarlo
 
-sudo a2enmod rewrite
-sudo service apache2 reload
+**sudo a2enmod rewrite
+**sudo service apache2 reload
 
