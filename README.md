@@ -7,7 +7,7 @@ Programada en Laravel 5.2
 
 ### Installación ###
 
-* `git clone https://github.com/bestmomo/test_dnoise.git test`
+* `git clone https://github.com/Juanacv/test_dnoise.git test`
 * `cd test`
 * `composer install`
 * `mv .env.example .env`
